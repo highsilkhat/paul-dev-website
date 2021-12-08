@@ -44,7 +44,7 @@ const Project: React.VFC<{
       >
         {listItems.map((item, i) => {
           return (
-            <li>
+            <li key={i}>
               {'<'}
               {item}
               {'>'}
