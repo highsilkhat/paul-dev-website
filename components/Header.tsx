@@ -1,5 +1,7 @@
 import LinkedInIcon from '../assets/logo-linkedin.svg'
 import GitHubIcon from '../assets/logo-github.svg'
+import EmailIcon from '../assets/mail.svg'
+import MenuLink from './MenuLink'
 
 const Header: React.VFC = () => {
   return (
@@ -43,6 +45,18 @@ const Header: React.VFC = () => {
 
               "
         >
+          <MenuLink href="/resume">
+            <p>Resume</p>
+          </MenuLink>
+          <a
+            className="
+            hover:text-yellow-400
+            hover:text-opacity-50
+            "
+            href="mailto:paullee4400@gmail.com"
+          >
+            <EmailIcon />
+          </a>
           <a
             className="
             hover:text-yellow-400

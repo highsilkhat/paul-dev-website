@@ -5,6 +5,7 @@ const MenuLink: React.FC<LinkProps> = ({ children, ...rest }) => {
     <Link {...rest}>
       <a
         className="
+        text-base md:text-lg
         text-yellow-400
         hover:text-blue-700
         "
