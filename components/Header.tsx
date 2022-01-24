@@ -2,6 +2,7 @@ import LinkedInIcon from '../assets/logo-linkedin.svg'
 import GitHubIcon from '../assets/logo-github.svg'
 import EmailIcon from '../assets/mail.svg'
 import MenuLink from './MenuLink'
+import TerminalIcon from '../assets/terminal.svg'
 
 const Header: React.VFC = () => {
   return (
@@ -45,9 +46,24 @@ const Header: React.VFC = () => {
 
               "
         >
-          <MenuLink href="/resume">
-            <p>Resume</p>
-          </MenuLink>
+          <a
+            className="
+          hover:text-yellow-400
+            hover:text-opacity-100
+            
+            "
+            href="/resume"
+          >
+            <TerminalIcon />
+            <p
+              className="
+          text-xs
+          "
+            >
+              Resume
+            </p>
+          </a>
+
           <a
             className="
             hover:text-yellow-400
@@ -56,6 +72,13 @@ const Header: React.VFC = () => {
             href="mailto:paullee4400@gmail.com"
           >
             <EmailIcon />
+            <p
+              className="
+          text-xs
+          "
+            >
+              Email
+            </p>
           </a>
           <a
             className="
@@ -65,6 +88,13 @@ const Header: React.VFC = () => {
             href="https://github.com/highsilkhat"
           >
             <GitHubIcon />
+            <p
+              className="
+          text-xs
+          "
+            >
+              GitHub
+            </p>
           </a>
           <a
             className="
@@ -74,6 +104,13 @@ const Header: React.VFC = () => {
             href="https://www.linkedin.com/in/paul-d-lee/"
           >
             <LinkedInIcon />
+            <p
+              className="
+          text-xs
+          "
+            >
+              LinkedIn
+            </p>
           </a>
         </div>
       </div>
