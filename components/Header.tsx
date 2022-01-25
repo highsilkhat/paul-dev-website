@@ -1,6 +1,7 @@
 import LinkedInIcon from '../assets/logo-linkedin.svg'
 import GitHubIcon from '../assets/logo-github.svg'
 import EmailIcon from '../assets/mail.svg'
+import ReaderIcon from '../assets/reader.svg'
 import MenuLink from './MenuLink'
 import TerminalIcon from '../assets/terminal.svg'
 
@@ -46,23 +47,49 @@ const Header: React.VFC = () => {
 
               "
         >
-          <a
-            className="
-          hover:text-yellow-400
-            hover:text-opacity-100
-            
-            "
-            href="/resume"
-          >
-            <TerminalIcon />
+          <MenuLink href="/blog">
+            <div className="group">
+              <div
+                className="
+              
+              text-3xl md:text-4xl
+              text-yellow-100
+              text-opacity-50
+              group-hover:text-yellow-400
+              group-hover:text-opacity-100
+              "
+              >
+                <ReaderIcon />
+                <p
+                  className="
+                        text-xs
+                        invisible group-hover:visible
+                        "
+                >
+                  Blog
+                </p>
+              </div>
+            </div>
+          </MenuLink>
+          <MenuLink href="/resume">
             <p
               className="
+            text-3xl md:text-4xl
+            text-yellow-100
+            text-opacity-50
+            hover:text-yellow-400
+            hover:text-opacity-100"
+            >
+              <TerminalIcon />
+              <p
+                className="
           text-xs
           "
-            >
-              Resume
+              >
+                Resume
+              </p>
             </p>
-          </a>
+          </MenuLink>
 
           <a
             className="
