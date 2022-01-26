@@ -52,7 +52,6 @@ const Project: React.VFC<{
           )
         })}
       </ul>
-      <br />
     </div>
   )
 }
