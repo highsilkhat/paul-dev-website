@@ -4,7 +4,6 @@ import EmailIcon from '../assets/email.svg'
 import ReaderIcon from '../assets/reader.svg'
 import MenuLink from './MenuLink'
 import TerminalIcon from '../assets/terminal.svg'
-import MenuHref from './MenuHref'
 
 const Header: React.VFC = () => {
   return (
