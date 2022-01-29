@@ -13,7 +13,16 @@ interface PostProps {
 
 const Post: React.VFC<PostProps> = ({ postContent }) => {
   return (
-    <div>
+    <div
+      className="
+      w-full
+      h-screen
+      relative
+      bg-black
+      overflow-y-auto
+
+    "
+    >
       <Blog
         contents={postContent.htmlContent}
         metaData={postContent.metaData}

@@ -25,7 +25,6 @@ const Header: React.VFC = () => {
         <h1
           className="
                 text-5xl
-                font-thin
                 font-sans
                 text-yellow-100
                 text-opacity-50
@@ -60,7 +59,7 @@ const Header: React.VFC = () => {
           <a
             className="
             hover:text-yellow-400
-            hover:text-opacity-100
+            hover:text-opacity-95
             "
             href="https://github.com/highsilkhat"
           >
@@ -69,7 +68,7 @@ const Header: React.VFC = () => {
           <a
             className="
           hover:text-yellow-400
-          hover:text-opacity-100
+          hover:text-opacity-95
           "
             href="https://www.linkedin.com/in/paul-d-lee/"
           >
