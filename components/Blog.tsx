@@ -21,13 +21,18 @@ const Blog: React.VFC<BlogProps> = ({ contents, metaData }) => {
         <h1
           className="
         text-4xl
-
         font-sans
-      
         "
         >
           {metaData.title}
         </h1>
+
+        <p>
+          <p className="text-red-200">
+            "No man but a blockhead ever wrote, except for money." — Samuel
+            Johnson
+          </p>
+        </p>
         <div
           dangerouslySetInnerHTML={{ __html: contents }}
           className="
