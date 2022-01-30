@@ -106,20 +106,20 @@ const Resume: NextPage = () => {
 
       <Skill
         skill="Frameworks & Libraries"
-        skillBody="React, Express, Node.js, Flask, Spring, Bootstrap, TailwindCSS, Next.js,
-        npm, yarn"
+        skillBody="React, Express, Node.js, Flask, Spring, Bootstrap, tailwindcss, Next.js,
+        npm"
       />
 
       <Skill
         skill="Databases & Cloud"
         skillBody="
-        EC2(AWS), MySQL, MongoDB, Vercel"
+        AWS, MySQL, MongoDB, Vercel"
       />
 
       <Skill
         skill="Tools"
         skillBody="
-        GitHub, VSCode, Postman, MySQL Workbench"
+        GitHub, VSCode, Postman, MySQL Workbench, Spring Tool Suite"
       />
 
       <h2
@@ -140,6 +140,17 @@ const Resume: NextPage = () => {
       </h2>
 
       <Project
+        title="Portfolio Website"
+        listItems={[
+          'Used TypeScript to ensure reliable and readable code',
+          'Drew on Next.js to create build time generated static webpages',
+          'Leveraged tailwindcss for consistent but adaptable styling',
+        ]}
+        href="https://github.com/highsilkhat/paul-dev-website"
+        techs="TypeScript, Next.js, tailwindcss"
+      />
+
+      <Project
         title="Pirate Manager App"
         listItems={[
           'Utilized OOP principles to modularize functional and class components',
@@ -147,7 +158,7 @@ const Resume: NextPage = () => {
           'Provided real-time front-end validations through state, to ensure legitimate data and user feedback',
         ]}
         href="https://github.com/highsilkhat/pirate-manager"
-        techs="React, Express, MongoDB, Node.js"
+        techs="JavaScript, React, Express, MongoDB, Node.js"
       />
 
       <Project

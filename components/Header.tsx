@@ -1,7 +1,9 @@
 import LinkedInIcon from '../assets/logo-linkedin.svg'
 import GitHubIcon from '../assets/logo-github.svg'
-import EmailIcon from '../assets/mail.svg'
+import EmailIcon from '../assets/email.svg'
+import ReaderIcon from '../assets/reader.svg'
 import MenuLink from './MenuLink'
+import TerminalIcon from '../assets/terminal.svg'
 
 const Header: React.VFC = () => {
   return (
@@ -44,36 +46,131 @@ const Header: React.VFC = () => {
 
               "
         >
-          <MenuLink href="/resume">
-            <p>Resume</p>
+          <MenuLink href="/blog">
+            <div className="group">
+              <div
+                className="
+              
+              text-3xl md:text-4xl
+              text-yellow-100
+              text-opacity-50
+              group-hover:text-yellow-400
+              group-hover:text-opacity-100
+              "
+              >
+                <ReaderIcon />
+                <div
+                  className="
+                        text-xs
+                        visible md:invisible group-hover:visible
+                        flex
+                        
+                        "
+                >
+                  <p className="flex justify-center">Blog</p>
+                </div>
+              </div>
+            </div>
           </MenuLink>
-          <a
-            className="
-            hover:text-yellow-400
-            hover:text-opacity-50
-            "
-            href="mailto:paullee4400@gmail.com"
-          >
-            <EmailIcon />
-          </a>
-          <a
-            className="
-            hover:text-yellow-400
-            hover:text-opacity-95
-            "
-            href="https://github.com/highsilkhat"
-          >
-            <GitHubIcon />
-          </a>
-          <a
-            className="
-          hover:text-yellow-400
-          hover:text-opacity-95
-          "
-            href="https://www.linkedin.com/in/paul-d-lee/"
-          >
-            <LinkedInIcon />
-          </a>
+          <MenuLink href="/resume">
+            <div className="group">
+              <div
+                className="
+              text-3xl md:text-4xl
+              text-yellow-100
+              text-opacity-50
+              group-hover:text-yellow-400
+              group-hover:text-opacity-100"
+              >
+                <TerminalIcon />
+                <div>
+                  <p
+                    className="
+                          text-xs
+                          visible md:invisible group-hover:visible
+                          "
+                  >
+                    Resume
+                  </p>
+                </div>
+              </div>
+            </div>
+          </MenuLink>
+
+          <div className="group">
+            <a
+              className="
+              group-hover:text-yellow-400
+              group-hover:text-opacity-100
+              "
+              href="mailto:paullee4400@gmail.com"
+            >
+              <EmailIcon />
+              <div
+                className="flex
+              justify-self-end"
+              >
+                <p
+                  className="
+                            text-xs
+                            visible md:invisible group-hover:visible
+                            flex
+                            justify-self-end
+                            "
+                >
+                  Email
+                </p>
+              </div>
+            </a>
+          </div>
+          <div className="group">
+            <a
+              className="
+              group-hover:text-yellow-400
+              group-hover:text-opacity-100
+              "
+              href="https://github.com/highsilkhat"
+            >
+              <GitHubIcon />
+              <div
+                className="flex
+              self-center"
+              >
+                <p
+                  className="
+                            text-xs
+                            visible md:invisible group-hover:visible
+                            "
+                >
+                  GitHub
+                </p>
+              </div>
+            </a>
+          </div>
+          <div className="group">
+            <a
+              className="
+              group-hover:text-yellow-400
+              group-hover:text-opacity-100
+              "
+              href="https://github.com/highsilkhat"
+            >
+              <LinkedInIcon />
+              <div
+                className="flex
+              self-center"
+              >
+                <p
+                  className="
+                            text-xs
+                            visible md:invisible group-hover:visible
+                            "
+                >
+                  LinkedIn
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
