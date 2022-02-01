@@ -1,24 +1,24 @@
-import { Component } from 'react'
-
 const MenuHref: React.FC<{
   outerDivStyle: string
   innerDivStyle: string
   href: string
   iconText: string
   iconTextStyling: string
-  iconComponent: string
+  iconComponent: React.ComponentType
 }> = ({
   outerDivStyle,
   innerDivStyle,
   href,
-  iconComponent,
+  iconComponent: IconComponent,
   iconText,
   iconTextStyling,
 }) => {
   return (
     <div className={outerDivStyle}>
       <div className={innerDivStyle}>
-        <a href={href}></a>
+        <a href={href}>
+          <IconComponent />
+        </a>
         <p className={iconTextStyling}>{iconText}</p>
       </div>
     </div>

@@ -4,6 +4,7 @@ import EmailIcon from '../assets/email.svg'
 import ReaderIcon from '../assets/reader.svg'
 import MenuLink from './MenuLink'
 import TerminalIcon from '../assets/terminal.svg'
+import MenuHref from './MenuHref'
 
 const Header: React.VFC = () => {
   return (
@@ -46,6 +47,16 @@ const Header: React.VFC = () => {
 
               "
         >
+          <MenuHref
+            outerDivStyle="group"
+            innerDivStyle="group-hover:text-yellow-400
+            group-hover:text-opacity-100"
+            href="mailto:paullee4400@gmail.com"
+            iconComponent={EmailIcon}
+            iconText="Email"
+            iconTextStyling="text-xs
+          visible md:invisible group-hover:visible"
+          />
           <MenuLink href="/blog">
             <div className="group">
               <div

@@ -10,12 +10,14 @@ const Blog: React.VFC<BlogProps> = ({ contents, metaData }) => {
   return (
     <div>
       <Header />
+      <p className="text-red-200">
+        &quot;No man but a blockhead ever wrote, except for money.&quot; —
+        Samuel Johnson
+      </p>
       <article
         className="
         mx-10 md:mx-20
-      text-yellow-400
       font-serif
-      text-opacity-95
       "
       >
         <h1
@@ -27,19 +29,13 @@ const Blog: React.VFC<BlogProps> = ({ contents, metaData }) => {
           {metaData.title}
         </h1>
 
-        <p>
-          <p className="text-red-200">
-            "No man but a blockhead ever wrote, except for money." — Samuel
-            Johnson
-          </p>
-        </p>
         <div
           dangerouslySetInnerHTML={{ __html: contents }}
           className="
-          text-lg
           prose
-          text-green-300
-          text-opacity-95
+          prose-lg
+          prose-green
+
           "
         ></div>
         <p

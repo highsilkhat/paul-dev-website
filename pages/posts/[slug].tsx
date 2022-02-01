@@ -23,6 +23,9 @@ const Post: React.VFC<PostProps> = ({ postContent }) => {
 
     "
     >
+      <p>
+        No man but a blockhead ever wrote, except for money. — Samuel Johnson
+      </p>
       <Blog
         contents={postContent.htmlContent}
         metaData={postContent.metaData}
@@ -40,7 +43,7 @@ export const getStaticPaths: GetStaticPaths<PostParams> = async () => {
     fallback: false,
     paths: posts.map((post) => ({
       params: {
-        slug: post,
+        slug: post.slug,
       },
     })),
   }

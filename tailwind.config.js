@@ -8,6 +8,16 @@ module.exports = {
         sans: ['Raleway', 'sans-serif'],
         serif: ['Nanum Myeongjo', 'serif'],
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.green.600'),
+            h1: {
+              color: theme('colors.green.800'),
+            },
+          },
+        },
+      }),
     },
   },
   variants: {
