@@ -1,12 +1,13 @@
 ---
 title: From English Instructor to Computer Engineer
 publishedDate: 1/29/22
----
-
+excerpt: I, like Dante, “found myself/ In dark woods, the right road lost”, in the middle of the COVID-19 pandemic, and the middle of a PhD program.
 ---
 
 I, like Dante, “found myself/ In dark woods, the right road lost”, in the middle of the COVID-19 pandemic, and the middle of a PhD program. In the dim forest of confusion, I had existential and very immediate doubts, like how I would pay bills. My journey into programming began here.
 On a shared Google doc, my dissertation committee and I were brainstorming a list of approximately 100 texts, either books or academic articles, that I would read, then be tested on in a year. My initial hopes of studying Japanese literature were quickly quelled by my committee. I didn’t know how to read Japanese; there wasn’t enough time to learn the language during the PhD program, and none of the committee members were Japanese literature experts. My committee did the best to help me adapt the direction. I settled on a variation of global poetry of 20th and early 21st centuries. Still, I largely felt uninspired.
+
+# Words
 
 Civilization V sparked another type of inspiration. And, on my MacBook Air I began my wandering. Civ V was was the highest version supported on my computer, although VI had been out for years. I worried I my computer would overheat and fry my whole computer. Hours and hours were spent procrastinating my PhD. When I’d start to research books to read for my exam, I’d instead lie on the couch and play Civ. It may have been this game that sub-consciously encouraged me to explore programming.
 I had played the original Civilization game as a child. My dad was an earlier adopter of the home pc. We had much of the early shareware and software games. I remember games like the Castle of Dr. Brain, Lemmings, The Incredible Machine, and, an even more horrific, earlier game called Baby Bouncers. In this 8-bit (?) game, babies would be thrown from burning buildings. The player’s goal was to user a stretcher to bounce the helpless infant into the ambulance. Before Windows, I used variations of graphical user interfaces, the more rudimentary being Norton Commander. Before this, I navigated the DOS prompt. C:/
