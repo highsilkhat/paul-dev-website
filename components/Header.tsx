@@ -4,6 +4,7 @@ import EmailIcon from '../assets/email.svg'
 import ReaderIcon from '../assets/reader.svg'
 import MenuLink from './MenuLink'
 import TerminalIcon from '../assets/terminal.svg'
+import MenuHref from './MenuHref'
 
 const Header: React.VFC = () => {
   return (
@@ -99,73 +100,54 @@ const Header: React.VFC = () => {
           </MenuLink>
 
           <div className="group">
-            <a
-              className="
-              group-hover:text-yellow-400
-              group-hover:text-opacity-100
+            <MenuHref
+              divStyle="
+                group-hover:text-yellow-400
+                group-hover:text-opacity-100
               "
-              href="mailto:paullee4400@gmail.com"
-            >
-              <EmailIcon />
-              <div
-                className="flex
-              justify-self-end"
-              >
-                <p
-                  className="
-                            text-xs
-                            visible md:invisible group-hover:visible
-                            flex
-                            justify-self-end
-                            "
-                >
-                  Email
-                </p>
-              </div>
-            </a>
-          </div>
-          <div className="group">
-            <a
-              className="
-              group-hover:text-yellow-400
-              group-hover:text-opacity-100
+              href="mailto:paullee4400@gmail.com
               "
-              href="https://github.com/highsilkhat"
-            >
-              <GitHubIcon />
-              <div
-                className="flex
-              self-center"
-              >
-                <p
-                  className="
-                            text-xs
-                            visible md:invisible group-hover:visible
-                            "
-                >
-                  GitHub
-                </p>
-              </div>
-            </a>
+              iconComponent={EmailIcon}
+              iconText="Email"
+              iconTextStyling="
+                text-xs
+                visible md:invisible group-hover:visible
+              "
+            />
           </div>
+
           <div className="group">
-            <a
-              className="
-            group-hover:text-yellow-400
-            group-hover:text-opacity-100
-            "
-              href="https://www.linkedin.com/in/paul-d-lee/"
-            >
-              <LinkedInIcon />
-              <p
-                className="
-            text-xs
-            visible md:invisible group-hover:visible
-            "
-              >
-                LinkedIn
-              </p>
-            </a>
+            <MenuHref
+              divStyle="
+                group-hover:text-yellow-400
+                group-hover:text-opacity-100
+              "
+              href="https://github.com/highsilkhat
+              "
+              iconComponent={GitHubIcon}
+              iconText="GitHub"
+              iconTextStyling="
+                text-xs
+                visible md:invisible group-hover:visible
+              "
+            />
+          </div>
+
+          <div className="group">
+            <MenuHref
+              divStyle="
+                group-hover:text-yellow-400
+                group-hover:text-opacity-100
+              "
+              href="https://www.linkedin.com/in/paul-d-lee/
+              "
+              iconComponent={LinkedInIcon}
+              iconText="LinkedIn"
+              iconTextStyling="
+                text-xs
+                visible md:invisible group-hover:visible
+              "
+            />
           </div>
         </div>
       </div>

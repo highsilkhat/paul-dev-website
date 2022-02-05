@@ -3,9 +3,10 @@ import Head from 'next/head'
 import Skill from '../components/Skill'
 import Project from '../components/Project'
 import GitHubIcon from '../assets/logo-github.svg'
-import EmailIcon from '../assets/mail.svg'
+import EmailIcon from '../assets/email.svg'
 import LinkedInIcon from '../assets/logo-linkedin.svg'
 import MenuLink from '../components/MenuLink'
+import MenuHref from '../components/MenuHref'
 
 const Resume: NextPage = () => {
   return (
@@ -56,35 +57,39 @@ const Resume: NextPage = () => {
         flex"
         >
           <span className="text-yellow-200">(</span>
-          <a
-            className="
+          <MenuHref
+            divStyle="
               text-green-300
-              text-opacity-50
               hover:text-yellow-400
-              hover:text-opacity-50
+              hover:text-opacity-100
               "
             href="mailto:paullee4400@gmail.com"
-          >
-            <EmailIcon />
-          </a>
-          <a
-            className="
+            iconComponent={EmailIcon}
+            iconText=""
+            iconTextStyling=""
+          />
+          <MenuHref
+            divStyle="
+              text-green-300
               hover:text-yellow-400
               hover:text-opacity-100
               "
             href="https://github.com/highsilkhat"
-          >
-            <GitHubIcon />
-          </a>
-          <a
-            className="
-            hover:text-yellow-400
-            hover:text-opacity-100
-            "
+            iconComponent={GitHubIcon}
+            iconText=""
+            iconTextStyling=""
+          />
+          <MenuHref
+            divStyle="
+              text-green-300
+              hover:text-yellow-400
+              hover:text-opacity-100
+              "
             href="https://www.linkedin.com/in/paul-d-lee/"
-          >
-            <LinkedInIcon />
-          </a>
+            iconComponent={LinkedInIcon}
+            iconText=""
+            iconTextStyling=""
+          />
           <span className="text-yellow-200">)</span>{' '}
         </div>
         <span className="text-blue-300">={'>'} </span> SoftwareEngineer {'{'}
