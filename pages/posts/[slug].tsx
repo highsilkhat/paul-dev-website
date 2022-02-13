@@ -1,6 +1,8 @@
-import { GetStaticPaths, GetStaticProps } from 'next'
+import { GetStaticPaths, GetStaticProps, NextPage } from 'next'
+import Head from 'next/head'
 import { ParsedUrlQuery } from 'querystring'
-import Blog from '../../components/Blog'
+import BlogArticle from '../../components/BlogArticle'
+import BlogLayout from '../../components/BlogLayout'
 import { getAllPosts, getPostContent, PostContent } from '../../lib/blog-api'
 
 interface PostParams extends ParsedUrlQuery {
@@ -11,26 +13,17 @@ interface PostProps {
   postContent: PostContent
 }
 
-const Post: React.VFC<PostProps> = ({ postContent }) => {
+const Post: NextPage<PostProps> = ({ postContent }) => {
   return (
-    <div
-      className="
-      w-full
-      h-screen
-      relative
-      bg-black
-      overflow-y-auto
-
-    "
-    >
-      <p>
-        No man but a blockhead ever wrote, except for money. — Samuel Johnson
-      </p>
-      <Blog
+    <BlogLayout>
+      <Head>
+        <title> {postContent.metaData.title} - Paul Lee </title>
+      </Head>
+      <BlogArticle
         contents={postContent.htmlContent}
         metaData={postContent.metaData}
       />
-    </div>
+    </BlogLayout>
   )
 }
 

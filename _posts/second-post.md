@@ -1,6 +1,6 @@
 ---
 title: From English Instructor to Computer Engineer
-publishedDate: 1/29/22
+publishedDate: 1/29/10
 excerpt: I, like Dante, “found myself/ In dark woods, the right road lost”, in the middle of the COVID-19 pandemic, and the middle of a PhD program.
 ---
 

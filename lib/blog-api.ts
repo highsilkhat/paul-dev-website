@@ -2,7 +2,8 @@ import path from 'path'
 import fs from 'fs/promises'
 import { micromark } from 'micromark'
 import matter from 'gray-matter'
-import { stringifyError } from './utils'
+import { isValidDate, parseDate, stringifyError } from './utils'
+import compareDesc from 'date-fns/compareDesc'
 
 export interface MetaData {
   title: string
@@ -30,7 +31,11 @@ function parseMetaData(rawMetaData: Record<string, unknown>): MetaData {
   }
 
   const publishedDate = rawMetaData.publishedDate
-  if (!publishedDate || typeof publishedDate !== 'string') {
+  if (
+    !publishedDate ||
+    typeof publishedDate !== 'string' ||
+    !isValidDate(parseDate(publishedDate))
+  ) {
     throw new Error('Missing date')
   }
 
@@ -81,7 +86,9 @@ export async function getAllPosts(): Promise<PostListDetails[]> {
       )
     }
   }
-  return details
+  return details.sort((a, b) =>
+    compareDesc(parseDate(a.publishedDate), parseDate(b.publishedDate))
+  )
 }
 
 export async function getPostContent(slug: string): Promise<PostContent> {
