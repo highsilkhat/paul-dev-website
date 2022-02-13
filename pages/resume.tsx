@@ -42,7 +42,7 @@ const Resume: NextPage = () => {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
-      <MenuLink href="/">Home</MenuLink>
+      {/* <MenuLink href="/">Home</MenuLink> */}
 
       <h1
         className="
@@ -58,7 +58,7 @@ const Resume: NextPage = () => {
         >
           <span className="text-yellow-200">(</span>
           <MenuHref
-            divStyle="
+            className="
               text-green-300
               hover:text-yellow-400
               hover:text-opacity-100
@@ -69,7 +69,7 @@ const Resume: NextPage = () => {
             iconTextStyling=""
           />
           <MenuHref
-            divStyle="
+            className="
               text-green-300
               hover:text-yellow-400
               hover:text-opacity-100
@@ -80,7 +80,7 @@ const Resume: NextPage = () => {
             iconTextStyling=""
           />
           <MenuHref
-            divStyle="
+            className="
               text-green-300
               hover:text-yellow-400
               hover:text-opacity-100

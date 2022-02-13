@@ -48,107 +48,79 @@ const Header: React.VFC = () => {
 
               "
         >
-          <MenuLink href="/blog">
-            <div className="group">
-              <div
-                className="
-              
-              text-3xl md:text-4xl
-              text-yellow-100
-              text-opacity-50
+          <MenuLink
+            href="/blog"
+            className="
               group-hover:text-yellow-400
               group-hover:text-opacity-100
-              "
-              >
-                <ReaderIcon />
-                <div
-                  className="
-                        text-xs
-                        visible md:invisible group-hover:visible
-                        flex
-                        
-                        "
-                >
-                  <p className="flex justify-center">Blog</p>
-                </div>
-              </div>
-            </div>
-          </MenuLink>
-          <MenuLink href="/resume">
-            <div className="group">
-              <div
-                className="
-              text-3xl md:text-4xl
-              text-yellow-100
-              text-opacity-50
-              group-hover:text-yellow-400
-              group-hover:text-opacity-100"
-              >
-                <TerminalIcon />
-                <div>
-                  <p
-                    className="
-                          text-xs
-                          visible md:invisible group-hover:visible
-                          "
-                  >
-                    Resume
-                  </p>
-                </div>
-              </div>
-            </div>
-          </MenuLink>
+            "
+            iconComponent={ReaderIcon}
+            iconText="Blog"
+            iconTextStyling="
+              text-xs
+              visible md:invisible group-hover:visible
+            "
+          />
 
-          <div className="group">
-            <MenuHref
-              divStyle="
+          <MenuLink
+            href="/resume"
+            className="
                 group-hover:text-yellow-400
                 group-hover:text-opacity-100
               "
-              href="mailto:paullee4400@gmail.com
-              "
-              iconComponent={EmailIcon}
-              iconText="Email"
-              iconTextStyling="
+            iconComponent={TerminalIcon}
+            iconText="Resume"
+            iconTextStyling="
                 text-xs
                 visible md:invisible group-hover:visible
               "
-            />
-          </div>
+          />
 
-          <div className="group">
-            <MenuHref
-              divStyle="
+          <MenuHref
+            className="
+                
                 group-hover:text-yellow-400
                 group-hover:text-opacity-100
               "
-              href="https://github.com/highsilkhat
+            href="mailto:paullee4400@gmail.com
               "
-              iconComponent={GitHubIcon}
-              iconText="GitHub"
-              iconTextStyling="
+            iconComponent={EmailIcon}
+            iconText="Email"
+            iconTextStyling="
                 text-xs
                 visible md:invisible group-hover:visible
               "
-            />
-          </div>
+          />
 
-          <div className="group">
-            <MenuHref
-              divStyle="
+          <MenuHref
+            className="
                 group-hover:text-yellow-400
                 group-hover:text-opacity-100
               "
-              href="https://www.linkedin.com/in/paul-d-lee/
+            href="https://github.com/highsilkhat
               "
-              iconComponent={LinkedInIcon}
-              iconText="LinkedIn"
-              iconTextStyling="
+            iconComponent={GitHubIcon}
+            iconText="GitHub"
+            iconTextStyling="
                 text-xs
                 visible md:invisible group-hover:visible
               "
-            />
-          </div>
+          />
+
+          <MenuHref
+            className="
+                group-hover:text-yellow-400
+                group-hover:text-opacity-100
+              "
+            href="https://www.linkedin.com/in/paul-d-lee/
+              "
+            iconComponent={LinkedInIcon}
+            iconText="LinkedIn"
+            iconTextStyling="
+                text-xs
+                visible md:invisible group-hover:visible
+              "
+          />
         </div>
       </div>
     </div>
