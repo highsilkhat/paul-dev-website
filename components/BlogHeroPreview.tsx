@@ -17,12 +17,14 @@ const BlogHeroPreview: React.VFC<PostListDetails> = ({
           ring-opacity-50
           rounded-lg
           border-dotted
-          border-2
+          border-4
           mt-4 md:mt:8
           p-4 md:p-8
           bg-black
-          group-hover:bg-gray-600
-          group-hover:border-solid
+          group-hover:text-gray-100
+          group-hover:bg-blue-800
+          group-hover:border-blue-800
+          group-hover:ring-0
         "
         >
           <h2
@@ -44,7 +46,7 @@ const BlogHeroPreview: React.VFC<PostListDetails> = ({
           <p
             className="
           font-serif
-          md: text-lg
+          md:text-lg
           "
           >
             {excerpt}

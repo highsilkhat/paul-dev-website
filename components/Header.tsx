@@ -49,16 +49,6 @@ const Header: React.VFC = () => {
                   text-opacity-50
                 "
           >
-            <MenuHref
-              outerDivStyle="group"
-              innerDivStyle="group-hover:text-yellow-400
-              group-hover:text-opacity-100"
-              href="mailto:paullee4400@gmail.com"
-              iconComponent={EmailIcon}
-              iconText="Email"
-              iconTextStyling="text-xs
-            visible md:invisible group-hover:visible"
-            />
             <MenuLink href="/blog">
               <div className="group">
                 <div

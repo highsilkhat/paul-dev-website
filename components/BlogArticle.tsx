@@ -1,5 +1,4 @@
 import { MetaData } from '../lib/blog-api'
-import Header from './Header'
 
 interface BlogProps {
   contents: string
