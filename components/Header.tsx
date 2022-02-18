@@ -49,134 +49,84 @@ const Header: React.VFC = () => {
                   text-opacity-50
                 "
           >
-            <MenuLink href="/blog">
-              <div className="group">
-                <div
-                  className="
-      
-                text-3xl md:text-4xl
-                text-yellow-100
-                text-opacity-50
+            
+          <MenuLink
+            href="/blog"
+            className="
+              group-hover:text-yellow-400
+              group-hover:text-opacity-100
+            "
+            iconComponent={ReaderIcon}
+            iconText="Blog"
+            iconTextStyling="
+              text-xs
+              visible md:invisible group-hover:visible
+            "
+          />
+
+          <MenuLink
+            href="/resume"
+            className="
                 group-hover:text-yellow-400
                 group-hover:text-opacity-100
-                "
-                >
-                  <ReaderIcon />
-                  <div
-                    className="
-                          text-xs
-                          visible md:invisible group-hover:visible
-                          flex
-      
-                          "
-                  >
-                    <p className="flex justify-center">Blog</p>
-                  </div>
-                </div>
-              </div>
-            </MenuLink>
-            <MenuLink href="/resume">
-              <div className="group">
-                <div
-                  className="
-                text-3xl md:text-4xl
-                text-yellow-100
-                text-opacity-50
-                group-hover:text-yellow-400
-                group-hover:text-opacity-100"
-                >
-                  <TerminalIcon />
-                  <div>
-                    <p
-                      className="
-                            text-xs
-                            visible md:invisible group-hover:visible
-                            "
-                    >
-                      Resume
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </MenuLink>
-            <div className="group">
-              <a
-                className="
+              "
+            iconComponent={TerminalIcon}
+            iconText="Resume"
+            iconTextStyling="
+                text-xs
+                visible md:invisible group-hover:visible
+              "
+          />
+
+          <MenuHref
+            className="
+                
                 group-hover:text-yellow-400
                 group-hover:text-opacity-100
-                "
-                href="mailto:contact@paullee.me"
-              >
-                <EmailIcon />
-                <div
-                  className="flex
-                justify-self-end"
-                >
-                  <p
-                    className="
-                              text-xs
-                              visible md:invisible group-hover:visible
-                              flex
-                              justify-self-end
-                              "
-                  >
-                    Email
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className="group">
-              <a
-                className="
+              "
+            href="mailto:paullee4400@gmail.com
+              "
+            iconComponent={EmailIcon}
+            iconText="Email"
+            iconTextStyling="
+                text-xs
+                visible md:invisible group-hover:visible
+              "
+          />
+
+          <MenuHref
+            className="
                 group-hover:text-yellow-400
                 group-hover:text-opacity-100
-                "
-                href="https://github.com/highsilkhat"
-              >
-                <GitHubIcon />
-                <div
-                  className="flex
-                self-center"
-                >
-                  <p
-                    className="
-                              text-xs
-                              visible md:invisible group-hover:visible
-                              "
-                  >
-                    GitHub
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className="group">
-              <a
-                className="
+              "
+            href="https://github.com/highsilkhat
+              "
+            iconComponent={GitHubIcon}
+            iconText="GitHub"
+            iconTextStyling="
+                text-xs
+                visible md:invisible group-hover:visible
+              "
+          />
+
+          <MenuHref
+            className="
                 group-hover:text-yellow-400
                 group-hover:text-opacity-100
-                "
-                href="https://github.com/highsilkhat"
-              >
-                <LinkedInIcon />
-                <div
-                  className="flex
-                self-center"
-                >
-                  <p
-                    className="
-                              text-xs
-                              visible md:invisible group-hover:visible
-                              "
-                  >
-                    LinkedIn
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
+              "
+            href="https://www.linkedin.com/in/paul-d-lee/
+              "
+            iconComponent={LinkedInIcon}
+            iconText="LinkedIn"
+            iconTextStyling="
+                text-xs
+                visible md:invisible group-hover:visible
+              "
+          />
         </div>
       </div>
     </div>
+  </div>
   )
 }
 

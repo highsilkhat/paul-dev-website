@@ -1,26 +1,35 @@
-const MenuHref: React.FC<{
-  outerDivStyle: string
-  innerDivStyle: string
+import clsx from 'clsx'
+
+export interface HrefData {
+  className: string
   href: string
-  iconText: string
-  iconTextStyling: string
+  iconText?: string
+  iconTextStyling?: string
   iconComponent: React.ComponentType
-}> = ({
-  outerDivStyle,
-  innerDivStyle,
+  noCenter?: boolean
+}
+
+const MenuHref: React.FC<HrefData> = ({
+  className,
   href,
   iconComponent: IconComponent,
   iconText,
   iconTextStyling,
+  noCenter,
 }) => {
   return (
-    <div className={outerDivStyle}>
-      <div className={innerDivStyle}>
-        <a href={href}>
-          <IconComponent />
-        </a>
+    <div
+      className="
+      group
+    "
+    >
+      <a
+        className={clsx(className, noCenter || 'flex flex-col items-center')}
+        href={href}
+      >
+        <IconComponent />
         <p className={iconTextStyling}>{iconText}</p>
-      </div>
+      </a>
     </div>
   )
 }
