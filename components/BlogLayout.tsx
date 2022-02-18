@@ -4,7 +4,7 @@ const BlogLayout: React.FC = ({ children }) => {
   return (
     <div
       className="
-    text-blue-600
+    text-yellow-200
     "
     >
       <Header />
@@ -15,7 +15,7 @@ const BlogLayout: React.FC = ({ children }) => {
       "
       >
         <p
-          className="text-red-200
+          className="text-ferry-green
         font-serif"
         >
           &quot;No man but a blockhead ever wrote, except for money.&quot; —

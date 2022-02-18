@@ -21,12 +21,14 @@ const BlogArticle: React.VFC<BlogProps> = ({ contents, metaData }) => {
           {metaData.title}
         </h1>
 
+        <br />
+        <br />
+
         <div
           dangerouslySetInnerHTML={{ __html: contents }}
           className="
           prose
           prose-lg
-          prose-green
           font-serif
           "
         ></div>

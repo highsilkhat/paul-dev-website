@@ -19,10 +19,20 @@ const Post: NextPage<PostProps> = ({ postContent }) => {
       <Head>
         <title> {postContent.metaData.title} - Paul Lee </title>
       </Head>
-      <BlogArticle
-        contents={postContent.htmlContent}
-        metaData={postContent.metaData}
-      />
+      <div
+        className="
+              mt-10
+              py-10
+            bg-gray-800
+              bg-opacity-50
+              rounded-2xl
+              "
+      >
+        <BlogArticle
+          contents={postContent.htmlContent}
+          metaData={postContent.metaData}
+        />
+      </div>
     </BlogLayout>
   )
 }

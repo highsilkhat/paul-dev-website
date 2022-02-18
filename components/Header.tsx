@@ -5,19 +5,21 @@ import ReaderIcon from '../assets/reader.svg'
 import MenuLink from './MenuLink'
 import TerminalIcon from '../assets/terminal.svg'
 import MenuHref from './MenuHref'
+import Link from 'next/link'
 
 const Header: React.VFC = () => {
   return (
     <div
       className="
       py-10 md:py-20
+      font-serif
     "
     >
       <div
         className="
             text-center md:text-left
-            bg-gradient-to-r from-gray-800
-            bg-opacity-25
+            bg-gradient-to-l from-gray-400 via-sky-blue to-sea-blue
+            bg-opacity-100
           "
       >
         <div
@@ -29,16 +31,22 @@ const Header: React.VFC = () => {
                 p-5
               "
         >
-          <h1
-            className="
-                  text-5xl
-                  font-sans
-                  text-yellow-100
-                  text-opacity-50
-                "
-          >
-            Paul Lee
-          </h1>
+          <Link href={'/'}>
+            <a className="group">
+              <div
+                className="
+            text-5xl
+            font-sans
+            text-yellow-100
+            text-opacity-50
+            group-hover:text-yellow-400
+              group-hover:text-opacity-100
+          "
+              >
+                Paul Lee
+              </div>
+            </a>
+          </Link>
           <div
             className="
                   self-center md:self-end
@@ -49,84 +57,83 @@ const Header: React.VFC = () => {
                   text-opacity-50
                 "
           >
-            
-          <MenuLink
-            href="/blog"
-            className="
+            <MenuLink
+              href="/blog"
+              className="
               group-hover:text-yellow-400
               group-hover:text-opacity-100
             "
-            iconComponent={ReaderIcon}
-            iconText="Blog"
-            iconTextStyling="
+              iconComponent={ReaderIcon}
+              iconText="Blog"
+              iconTextStyling="
               text-xs
               visible md:invisible group-hover:visible
             "
-          />
+            />
 
-          <MenuLink
-            href="/resume"
-            className="
+            <MenuLink
+              href="/resume"
+              className="
                 group-hover:text-yellow-400
                 group-hover:text-opacity-100
               "
-            iconComponent={TerminalIcon}
-            iconText="Resume"
-            iconTextStyling="
+              iconComponent={TerminalIcon}
+              iconText="Resume"
+              iconTextStyling="
                 text-xs
                 visible md:invisible group-hover:visible
               "
-          />
+            />
 
-          <MenuHref
-            className="
+            <MenuHref
+              className="
                 
                 group-hover:text-yellow-400
                 group-hover:text-opacity-100
               "
-            href="mailto:paullee4400@gmail.com
+              href="mailto:contact@paullee.me
               "
-            iconComponent={EmailIcon}
-            iconText="Email"
-            iconTextStyling="
+              iconComponent={EmailIcon}
+              iconText="Email"
+              iconTextStyling="
                 text-xs
                 visible md:invisible group-hover:visible
               "
-          />
+            />
 
-          <MenuHref
-            className="
+            <MenuHref
+              className="
                 group-hover:text-yellow-400
                 group-hover:text-opacity-100
               "
-            href="https://github.com/highsilkhat
+              href="https://github.com/highsilkhat
               "
-            iconComponent={GitHubIcon}
-            iconText="GitHub"
-            iconTextStyling="
+              iconComponent={GitHubIcon}
+              iconText="GitHub"
+              iconTextStyling="
                 text-xs
                 visible md:invisible group-hover:visible
               "
-          />
+            />
 
-          <MenuHref
-            className="
+            <MenuHref
+              className="
                 group-hover:text-yellow-400
                 group-hover:text-opacity-100
               "
-            href="https://www.linkedin.com/in/paul-d-lee/
+              href="https://www.linkedin.com/in/paul-d-lee/
               "
-            iconComponent={LinkedInIcon}
-            iconText="LinkedIn"
-            iconTextStyling="
+              iconComponent={LinkedInIcon}
+              iconText="LinkedIn"
+              iconTextStyling="
                 text-xs
                 visible md:invisible group-hover:visible
               "
-          />
+            />
+          </div>
         </div>
       </div>
     </div>
-  </div>
   )
 }
 

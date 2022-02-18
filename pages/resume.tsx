@@ -5,8 +5,10 @@ import Project from '../components/Project'
 import GitHubIcon from '../assets/logo-github.svg'
 import EmailIcon from '../assets/email.svg'
 import LinkedInIcon from '../assets/logo-linkedin.svg'
+import ReaderIcon from '../assets/reader.svg'
 import MenuLink from '../components/MenuLink'
 import MenuHref from '../components/MenuHref'
+import Link from 'next/link'
 
 const Resume: NextPage = () => {
   return (
@@ -14,6 +16,7 @@ const Resume: NextPage = () => {
       className="
     p-5 md:p-10
     font-mono
+    bg-black
     "
     >
       <Head>
@@ -29,22 +32,71 @@ const Resume: NextPage = () => {
       md:flex
       "
       >
-        PaulLee <span className="text-white">=</span>{' '}
+        <Link href={'/'}>
+          <a
+            className="group
+          flex
+          "
+          >
+            <div
+              className="
+            font-mono
+            group-hover:text-yellow-400
+            group-hover:text-opacity-100
+          "
+            >
+              Paul
+            </div>
+            <div
+              className="
+            font-mono
+            group-hover:text-yellow-400
+            group-hover:text-opacity-100
+          "
+            >
+              Lee
+            </div>
+          </a>
+        </Link>
+        <span className="text-white">=</span>{' '}
         <div
           className="
-        flex"
+        flex
+        gap-3
+        "
         >
-          <span className="text-yellow-200">(</span>
+          <span
+            className="
+          text-yellow-200"
+          >
+            (
+          </span>
+          <MenuLink
+            href="/blog"
+            className="
+              group-hover:text-yellow-400
+              group-hover:text-opacity-100
+            "
+            iconComponent={ReaderIcon}
+            iconText="Blog"
+            iconTextStyling="
+              text-xs
+              visible md:invisible group-hover:visible
+            "
+          />
           <MenuHref
             className="
               text-green-300
               hover:text-yellow-400
               hover:text-opacity-100
               "
-            href="mailto:paullee4400@gmail.com"
+            href="mailto:contact@paullee.me"
             iconComponent={EmailIcon}
-            iconText=""
-            iconTextStyling=""
+            iconText="Email"
+            iconTextStyling="
+              text-xs
+              visible md:invisible group-hover:visible
+            "
           />
           <MenuHref
             className="
@@ -54,8 +106,11 @@ const Resume: NextPage = () => {
               "
             href="https://github.com/highsilkhat"
             iconComponent={GitHubIcon}
-            iconText=""
-            iconTextStyling=""
+            iconText="GitHub"
+            iconTextStyling="
+              text-xs
+              visible md:invisible group-hover:visible
+            "
           />
           <MenuHref
             className="
@@ -65,12 +120,15 @@ const Resume: NextPage = () => {
               "
             href="https://www.linkedin.com/in/paul-d-lee/"
             iconComponent={LinkedInIcon}
-            iconText=""
-            iconTextStyling=""
+            iconText="LinkedIn"
+            iconTextStyling="
+              text-xs
+              visible md:invisible group-hover:visible
+            "
           />
           <span className="text-yellow-200">)</span>{' '}
         </div>
-        <span className="text-blue-300">={'>'} </span> SoftwareEngineer {'{'}
+        <span className="text-white">{'=>'} </span> SoftwareEngineer {'{'}
       </h1>
 
       <h2

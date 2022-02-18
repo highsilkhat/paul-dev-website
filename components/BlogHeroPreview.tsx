@@ -13,18 +13,21 @@ const BlogHeroPreview: React.VFC<PostListDetails> = ({
       <a className="group">
         <div
           className="
+          rounded-xl
           ring-4
-          ring-opacity-50
-          rounded-lg
+          ring-sky-blue
+          bg-gray-700
           border-dotted
-          border-4
+          border-2
+          border-gray-300
+          bg-opacity-50
           mt-4 md:mt:8
           p-4 md:p-8
-          bg-black
           group-hover:text-gray-100
-          group-hover:bg-blue-800
-          group-hover:border-blue-800
-          group-hover:ring-0
+          group-hover:bg-ferry-green
+          group-hover:border-ferry-green
+          group-hover:ring-gray-300
+          group-hover:ring-2
         "
         >
           <h2

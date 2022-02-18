@@ -4,6 +4,14 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      colors: {
+        'sky-blue': '#5084c3',
+        'sunset-yellow': '#cfd1bb',
+        'sea-blue': '#203853',
+        'ferry-white': '#d1be9f',
+        'ferry-green': '#007054',
+      },
+
       fontFamily: {
         sans: ['Raleway', 'sans-serif'],
         serif: ['Nanum Myeongjo', 'serif'],
@@ -11,7 +19,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.green.600'),
+            color: theme('colors.black'),
             h1: {
               color: theme('colors.green.800'),
             },

@@ -5,7 +5,7 @@ const BaseLayout: React.FC = ({ children }) => {
     <div
       className="
       font-sans
-      bg-black
+      bg-gradient-to-b from-sky-blue via-sunset-yellow to-sea-blue
       w-full
       min-h-screen
     "
