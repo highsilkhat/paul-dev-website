@@ -11,11 +11,11 @@ const BlogLayout: React.FC = ({ children }) => {
       <div
         className="
       pl-4 md:pl-16
-      pr-24 md:pr-48
+      pr-4 md:pr-48
       "
       >
         <p
-          className="text-ferry-green
+          className="text-white
         font-serif"
         >
           &quot;No man but a blockhead ever wrote, except for money.&quot; —
