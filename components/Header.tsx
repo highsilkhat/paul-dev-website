@@ -37,9 +37,9 @@ const Header: React.VFC = () => {
                 className="
             text-5xl
             font-sans
-            text-yellow-100
+            text-amber-100
             text-opacity-50
-            group-hover:text-yellow-400
+            group-hover:text-amber-400
               group-hover:text-opacity-100
           "
               >
@@ -53,14 +53,14 @@ const Header: React.VFC = () => {
                   flex
                   gap-4 md:gap-2
                   text-3xl md:text-4xl
-                  text-yellow-100
+                  text-amber-100
                   text-opacity-50
                 "
           >
             <MenuLink
               href="/blog"
               className="
-              group-hover:text-yellow-400
+              group-hover:text-amber-400
               group-hover:text-opacity-100
             "
               iconComponent={ReaderIcon}
@@ -74,7 +74,7 @@ const Header: React.VFC = () => {
             <MenuLink
               href="/resume"
               className="
-                group-hover:text-yellow-400
+                group-hover:text-amber-400
                 group-hover:text-opacity-100
               "
               iconComponent={TerminalIcon}
@@ -88,7 +88,7 @@ const Header: React.VFC = () => {
             <MenuHref
               className="
                 
-                group-hover:text-yellow-400
+                group-hover:text-amber-400
                 group-hover:text-opacity-100
               "
               href="mailto:contact@paullee.me
@@ -103,7 +103,7 @@ const Header: React.VFC = () => {
 
             <MenuHref
               className="
-                group-hover:text-yellow-400
+                group-hover:text-amber-400
                 group-hover:text-opacity-100
               "
               href="https://github.com/highsilkhat
@@ -118,7 +118,7 @@ const Header: React.VFC = () => {
 
             <MenuHref
               className="
-                group-hover:text-yellow-400
+                group-hover:text-amber-400
                 group-hover:text-opacity-100
               "
               href="https://www.linkedin.com/in/paul-d-lee/

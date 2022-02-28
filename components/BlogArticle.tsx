@@ -13,13 +13,14 @@ const BlogArticle: React.VFC<BlogProps> = ({ contents, metaData }) => {
         mx-10 md:mx-20
       "
       >
-        <h1
+        <h2
           className="
         text-4xl
+        text-amber-200
         "
         >
           {metaData.title}
-        </h1>
+        </h2>
 
         <br />
         <br />

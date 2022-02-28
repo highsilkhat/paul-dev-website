@@ -4,7 +4,7 @@ const BlogLayout: React.FC = ({ children }) => {
   return (
     <div
       className="
-    text-yellow-200
+    
     "
     >
       <Header />
@@ -12,6 +12,7 @@ const BlogLayout: React.FC = ({ children }) => {
         className="
       pl-4 md:pl-16
       pr-4 md:pr-48
+      pb-20
       "
       >
         <p

@@ -21,8 +21,8 @@ const Project: React.VFC<{
         </p>
         <a
           className="
-        text-green-300
-        hover:text-yellow-400
+        text-emerald-300
+        hover:text-amber-400
         hover:text-opacity-100
         justify-self-end
         "
@@ -32,7 +32,7 @@ const Project: React.VFC<{
         </a>
         <p
           className="
-        text-yellow-200
+        text-amber-200
         "
         >
           {techs}
@@ -40,7 +40,7 @@ const Project: React.VFC<{
       </h3>
       <ul
         className="
-        text-yellow-700"
+        text-amber-700"
       >
         {listItems.map((item, i) => {
           return (

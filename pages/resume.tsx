@@ -27,7 +27,7 @@ const Resume: NextPage = () => {
 
       <h1
         className="
-      text-green-300
+      text-emerald-300
       text-xl md:text-4xl
       md:flex
       "
@@ -41,7 +41,7 @@ const Resume: NextPage = () => {
             <div
               className="
             font-mono
-            group-hover:text-yellow-400
+            group-hover:text-amber-400
             group-hover:text-opacity-100
           "
             >
@@ -50,7 +50,7 @@ const Resume: NextPage = () => {
             <div
               className="
             font-mono
-            group-hover:text-yellow-400
+            group-hover:text-amber-400
             group-hover:text-opacity-100
           "
             >
@@ -67,14 +67,14 @@ const Resume: NextPage = () => {
         >
           <span
             className="
-          text-yellow-200"
+          text-amber-200"
           >
             (
           </span>
           <MenuLink
             href="/blog"
             className="
-              group-hover:text-yellow-400
+              group-hover:text-amber-400
               group-hover:text-opacity-100
             "
             iconComponent={ReaderIcon}
@@ -86,8 +86,8 @@ const Resume: NextPage = () => {
           />
           <MenuHref
             className="
-              text-green-300
-              hover:text-yellow-400
+              text-emerald-300
+              hover:text-amber-400
               hover:text-opacity-100
               "
             href="mailto:contact@paullee.me"
@@ -100,8 +100,8 @@ const Resume: NextPage = () => {
           />
           <MenuHref
             className="
-              text-green-300
-              hover:text-yellow-400
+              text-emerald-300
+              hover:text-amber-400
               hover:text-opacity-100
               "
             href="https://github.com/highsilkhat"
@@ -114,8 +114,8 @@ const Resume: NextPage = () => {
           />
           <MenuHref
             className="
-              text-green-300
-              hover:text-yellow-400
+              text-emerald-300
+              hover:text-amber-400
               hover:text-opacity-100
               "
             href="https://www.linkedin.com/in/paul-d-lee/"
@@ -126,7 +126,7 @@ const Resume: NextPage = () => {
               visible md:invisible group-hover:visible
             "
           />
-          <span className="text-yellow-200">)</span>{' '}
+          <span className="text-amber-200">)</span>{' '}
         </div>
         <span className="text-white">{'=>'} </span> SoftwareEngineer {'{'}
       </h1>
@@ -227,7 +227,7 @@ const Resume: NextPage = () => {
 
       <p
         className="
-      text-green-300
+      text-emerald-300
       text-xl md:text-4xl
       "
       >

@@ -14,7 +14,7 @@ const Skill: React.VFC<{ skill: string; skillBody: string }> = ({
       </p>
       <p
         className="
-      text-yellow-500
+      text-amber-500
       text-opacity-75
       "
       >

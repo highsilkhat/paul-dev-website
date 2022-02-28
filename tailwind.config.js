@@ -1,7 +1,8 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false,
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+  ],
   theme: {
     extend: {
       colors: {
@@ -19,7 +20,7 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.black'),
+            color: theme('colors.white'),
             h1: {
               color: theme('colors.green.800'),
             },
@@ -27,9 +28,6 @@ module.exports = {
         },
       }),
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [require('@tailwindcss/typography')],
 }
