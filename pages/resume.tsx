@@ -22,9 +22,7 @@ const Resume: NextPage = () => {
       <Head>
         <title>Paul Lee Portfolio</title>
       </Head>
-
       {/* <MenuLink href="/">Home</MenuLink> */}
-
       <h1
         className="
       text-emerald-300
@@ -130,7 +128,6 @@ const Resume: NextPage = () => {
         </div>
         <span className="text-white">{'=>'} </span> SoftwareEngineer {'{'}
       </h1>
-
       <h2
         className="
       text-blue-300
@@ -139,30 +136,49 @@ const Resume: NextPage = () => {
       >
         Skills {'('}
       </h2>
-
       <Skill
         skill="Languages"
         skillBody="JavaScript (ES6), Python, TypeScript, Java, CSS, HTML, MySQL"
       />
-
       <Skill
         skill="Frameworks & Libraries"
         skillBody="React, Express, Node.js, Flask, Spring, Bootstrap, tailwindcss, Next.js,
         npm"
       />
-
       <Skill
         skill="Databases & Cloud"
         skillBody="
         AWS, MySQL, MongoDB, Vercel"
       />
-
       <Skill
         skill="Tools"
         skillBody="
         GitHub, VSCode, Postman, MySQL Workbench, Spring Tool Suite"
       />
-
+      <h2
+        className="
+      text-blue-300
+      text-lg md:text-xl
+      "
+      >
+        Certifications {'('}
+      </h2>
+      <Link
+        href={
+          'https://www.credly.com/badges/f39a6b6f-b153-4b9d-b824-62ef0a4319a0?source=linked_in_profile'
+        }
+      >
+        <a className="group">
+          <div
+            className="
+      text-amber-500
+      text-opacity-75
+          "
+          >
+            <u>Microsoft Certified: Azure Developer Associate</u>
+          </div>
+        </a>
+      </Link>
       <h2
         className="
       text-blue-300
@@ -171,7 +187,6 @@ const Resume: NextPage = () => {
       >
         {')'}
       </h2>
-
       <h2
         className="
       text-blue-300
@@ -179,7 +194,6 @@ const Resume: NextPage = () => {
       >
         Projects {'('}
       </h2>
-
       <Project
         title="Portfolio Website"
         listItems={[
@@ -190,7 +204,6 @@ const Resume: NextPage = () => {
         href="https://github.com/highsilkhat/paul-dev-website"
         techs="TypeScript, Next.js, tailwindcss"
       />
-
       <Project
         title="Pirate Manager App"
         listItems={[
@@ -201,7 +214,6 @@ const Resume: NextPage = () => {
         href="https://github.com/highsilkhat/pirate-manager"
         techs="JavaScript, React, Express, MongoDB, Node.js"
       />
-
       <Project
         title="Pen Fans App"
         listItems={[
@@ -213,7 +225,6 @@ const Resume: NextPage = () => {
         href="https://github.com/highsilkhat/pen_favorites"
         techs="Python, CSS, HTML5, MySQL"
       />
-
       <Project
         title="Company Scheduling App"
         listItems={[
@@ -224,7 +235,6 @@ const Resume: NextPage = () => {
         href="https://github.com/highsilkhat/classScheduler"
         techs="Java, Spring, MySQL"
       />
-
       <p
         className="
       text-emerald-300
