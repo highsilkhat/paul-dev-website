@@ -138,23 +138,31 @@ const Resume: NextPage = () => {
       </h2>
       <Skill
         skill="Languages"
-        skillBody="JavaScript (ES6), Python, TypeScript, Java, CSS, HTML, MySQL"
+        skillBody="JavaScript (ES6), TypeScript, Java, Python, CSS, HTML, SQL, GO"
       />
       <Skill
         skill="Frameworks & Libraries"
-        skillBody="React, Express, Node.js, Flask, Spring, Bootstrap, tailwindcss, Next.js,
+        skillBody="React, Express, Node.js, Hibernate, Spring, Flask, Bootstrap, tailwindcss, Next.js,
         npm"
       />
       <Skill
         skill="Databases & Cloud"
         skillBody="
-        AWS, MySQL, MongoDB, Vercel"
+        Azure Cloud,  AWS, MySQL, MongoDB, Vercel"
       />
       <Skill
         skill="Tools"
         skillBody="
-        GitHub, VSCode, Postman, MySQL Workbench, Spring Tool Suite"
+        GitHub, Eclipse, Azure DevOps, VSCode, Postman, MySQL Workbench, Azure Portal, TFVC"
       />
+      <h2
+        className="
+      text-blue-300
+      text-xl
+      "
+      >
+        {')'}
+      </h2>
       <h2
         className="
       text-blue-300
