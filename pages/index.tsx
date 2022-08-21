@@ -40,12 +40,14 @@ const Home: NextPage = () => {
               rounded-lg md:rounded-r-full
             "
         >
-          I am a software developer based out of Columbia, Missouri. Over the
-          course of my diverse career, I have balanced creative and methodical
-          approaches to my work. As a college instructor of 7 years, I enjoyed
-          sharing my expertise in Literature and English with others. This past
-          year, however, I decided to lean into my strengths as a creative
-          problem-solver and take up software and web-development.
+          Shortly after beginning my first developer role, I created a CI/CD
+          pipeline and earned the Azure Associate Developer certificate from
+          Microsoft. I continue to grow, as I transition a Java application from
+          JDBC and SQL queries to JPA. I also continue to pursue personal
+          projects, including a poetry application that analyzes a variety of
+          traditional forms and my portfolio site, and learn new technologies
+          and methods. I am currently diving into test-driven design, GoLang,
+          and machine learning.
         </p>
 
         <p
@@ -63,12 +65,12 @@ const Home: NextPage = () => {
             rounded-lg md:rounded-l-full
               "
         >
-          Recently, I completed a rigorous and immersive 14-week coding
-          bootcamp. In this time, I learned how to create full-stack
-          applications in three separate tech stacks: MERN, Python, and Java.
-          This experience not only taught me the foundations of these languages
-          but also how to transfer knowledge of one programming syntax to
-          another.
+          My initiation into programming occurred in the summer of 2021, when I
+          completed a rigorous and immersive 14-week coding bootcamp. In this
+          time, I learned how to create full-stack applications in three
+          separate tech stacks: MERN, Python, and Java. This experience not only
+          taught me the foundations of these languages but also how to transfer
+          knowledge of one programming syntax to another.
         </p>
       </div>
     </div>
