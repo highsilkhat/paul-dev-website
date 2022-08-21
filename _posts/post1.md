@@ -1,5 +1,5 @@
 ---
-title: From English Instructor to Computer Engineer
+title: From English Instructor to Software Developer
 publishedDate: 8/21/22
 excerpt: I, like Dante, “found myself/ In dark woods, the right road lost”, in the middle of the COVID-19 pandemic, and the middle of a PhD program. In the dim forest of confusion, I had existential, but also very immediate doubts — like how I would pay bills.
 ---
