@@ -173,7 +173,7 @@ const Resume: NextPage = () => {
       </h2>
       <Link
         href={
-          'https://www.credly.com/badges/f39a6b6f-b153-4b9d-b824-62ef0a4319a0?source=linked_in_profile'
+          'https://learn.microsoft.com/en-us/users/paullee-7702/transcript/dw226fwmw2xo3r2?source=docs'
         }
       >
         <a className="group">
