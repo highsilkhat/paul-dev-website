@@ -18,16 +18,6 @@ const Project: React.VFC<{
         <p>
           {'{ '} {title} {'} '}
         </p>
-        <a
-          className="
-        text-emerald-300
-        hover:text-amber-400
-        hover:text-opacity-100
-        justify-self-end
-        "
-        >
-          <GitHubIcon />
-        </a>
         <p
           className="
         text-amber-200
