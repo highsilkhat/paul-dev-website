@@ -25,7 +25,6 @@ const Project: React.VFC<{
         hover:text-opacity-100
         justify-self-end
         "
-          href={href}
         >
           <GitHubIcon />
         </a>
