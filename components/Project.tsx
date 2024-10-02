@@ -3,7 +3,6 @@ import GitHubIcon from '../assets/logo-github.svg'
 const Project: React.VFC<{
   title: string
   listItems: string[]
-  href: string
   techs: string
 }> = ({ title, listItems, href, techs }) => {
   return (

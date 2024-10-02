@@ -126,7 +126,7 @@ const Resume: NextPage = () => {
           />
           <span className="text-amber-200">)</span>{' '}
         </div>
-        <span className="text-white">{'=>'} </span> SoftwareEngineer {'{'}
+        <span className="text-white">{'=>'} </span> DevOpsEngineer {'{'}
       </h1>
       <h2
         className="
@@ -138,23 +138,23 @@ const Resume: NextPage = () => {
       </h2>
       <Skill
         skill="Languages"
-        skillBody="JavaScript (ES6), TypeScript, Java, Python, CSS, HTML, SQL, GO"
+        skillBody="Yaml, Terraform, Java, python, TypeScript"
+      />
+      <Skill
+          skill="Tools"
+          skillBody="
+        Kubernetes, Docker, GitHub, ArgoCD, Red Hat OpenShift, JetBrains"
       />
       <Skill
         skill="Frameworks & Libraries"
-        skillBody="React, Express, Node.js, Hibernate, Spring, Flask, Bootstrap, tailwindcss, Next.js,
-        npm"
+        skillBody="Helm, Spring, npm, Next.js"
       />
       <Skill
         skill="Databases & Cloud"
         skillBody="
-        Azure Cloud,  AWS, MySQL, MongoDB, Vercel"
+        Azure, AWS, MySQL, MongoDB, Vercel"
       />
-      <Skill
-        skill="Tools"
-        skillBody="
-        GitHub, Eclipse, Azure DevOps, VSCode, Postman, MySQL Workbench, Azure Portal, TFVC"
-      />
+
       <h2
         className="
       text-blue-300
@@ -200,48 +200,45 @@ const Resume: NextPage = () => {
       text-blue-300
       text-lg md:text-2xl"
       >
-        Projects {'('}
+        Experience {'('}
       </h2>
       <Project
-        title="Portfolio Website"
+        title="Senior DevOps Engineer"
         listItems={[
-          'Used TypeScript to ensure reliable and readable code',
-          'Drew on Next.js to create build time generated static webpages',
-          'Leveraged tailwindcss for consistent but adaptable styling',
+          'Developed proof of concept application in GitHub, leveraging Helm and ArgoCD, to lead team in DevOps practices',
+          'Composed thorough documentation for team on GitHub migration guidance, to accelerate enterprise priorities',
+          'Modernized pipeline by partnering with teams to create new application in OpenShift, leveraging Helm and ArgoCD',
         ]}
-        href="https://github.com/highsilkhat/paul-dev-website"
-        techs="TypeScript, Next.js, tailwindcss"
+        techs="Kubernetes, ArgoCD, GitHub Actions, Helm"
       />
       <Project
-        title="Pirate Manager App"
+        title="DevOps Engineer"
         listItems={[
-          'Utilized OOP principles to modularize functional and class components',
-          'Integrated useState, Express and MongoDB to create seamless button retrieve and update functionality',
-          'Provided real-time front-end validations through state, to ensure legitimate data and user feedback',
+          'Prioritized business stakeholders through development of enterprise Java applications',
+          'Served as expert on vendor product and relationship, to ensure reliable email communication with clients',
+          'Formulated architecture decision to memorialize rationale for technology approach',
+          'Conducted discovery work and piloted implementation of new product, to improve business advertising spend'
         ]}
-        href="https://github.com/highsilkhat/pirate-manager"
-        techs="JavaScript, React, Express, MongoDB, Node.js"
+        techs="Kubernetes, Java, Spring, Maven"
       />
       <Project
-        title="Pen Fans App"
+        title="Application Developer"
         listItems={[
-          'Created login/registration, including BCrycpt passwords, frontend validations',
-          'Implemented Flask to dynamically display and update information from database',
-          'Architected database with MySQL to facilitate many-to-many and many-to-one data relationships',
-          'Deployed on AWS EC2 for quick and flexible web hosting',
+          'Led, developed, and managed CI/CD pipeline to streamline and maintain Azure Web App deployments',
+          'Collaborated with Microsoft Senior Architect to produce Azure deployment proof-of-concept ',
+          'Migrated data access layer from JDBC & SQL to JPA for more efficient development',
+          'Conducted knowledge transfer with colleagues on Azure Web App management',
         ]}
-        href="https://github.com/highsilkhat/pen_favorites"
-        techs="Python, CSS, HTML5, MySQL"
+        techs="Azure DevOps, Spring, Maven"
       />
       <Project
-        title="Company Scheduling App"
+        title="Associate Application Developer"
         listItems={[
-          'Developed application with RESTful API for users to manage an instruction schedule',
-          'Generated dynamic rendering to grant access for all instructors to see others’ schedule and update their own',
-          'Employed Bootstrap to create a uniform and attractive user experience',
+          'Implemented automated build tests and code security reviews to ensure repository stability',
+          'Composed over 110 pages of documentation for Azure Web App and ADO pipeline creation',
+          'Worked on a Scrum team to re-write J2EE web application from WebSphere to Spring Boot for modernization',
         ]}
-        href="https://github.com/highsilkhat/classScheduler"
-        techs="Java, Spring, MySQL"
+        techs="Java, WebSphere, MySQL"
       />
       <p
         className="
