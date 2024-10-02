@@ -58,7 +58,7 @@ const Home: NextPage = () => {
             rounded-lg md:rounded-l-full
               "
         >
-          He is passionate about work with distributed systems, cloud-based infrastructure, and DevOps tooling and practices. He earned the Microsoft Azure Developer Associate (AZ-204) certificate in 2022 and maintains it annually. Paul will be sitting for the Certified Kubernetes Application Developer (CKAD) certificate in October, 2024. He works out of and lives in Seattle.
+          Paul is passionate about work with distributed systems, cloud-based infrastructure, and DevOps tooling and practices. He earned the Microsoft Azure Developer Associate (AZ-204) certificate in 2022 and maintains it annually. Paul will be sitting for the Certified Kubernetes Application Developer (CKAD) certificate in October, 2024. He works out of and lives in Seattle.
         </p>
       </div>
     </div>
