@@ -3,9 +3,8 @@ import GitHubIcon from '../assets/logo-github.svg'
 const Project: React.VFC<{
   title: string
   listItems: string[]
-  href: string
   techs: string
-}> = ({ title, listItems, href, techs }) => {
+}> = ({ title, listItems, techs }) => {
   return (
     <div>
       <h3
@@ -26,7 +25,6 @@ const Project: React.VFC<{
         hover:text-opacity-100
         justify-self-end
         "
-          href={href}
         >
           <GitHubIcon />
         </a>
