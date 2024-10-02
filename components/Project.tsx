@@ -4,7 +4,7 @@ const Project: React.VFC<{
   title: string
   listItems: string[]
   techs: string
-}> = ({ title, listItems, href, techs }) => {
+}> = ({ title, listItems, techs }) => {
   return (
     <div>
       <h3
