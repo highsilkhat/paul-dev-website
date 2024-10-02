@@ -40,7 +40,7 @@ const Home: NextPage = () => {
               rounded-lg md:rounded-r-full
             "
         >
-          Paul Lee is a Senior DevOps Engineer. He has helped to drive DevOps practices in the Marketing Technology space. Paul leads his team’s GitHub migration, including adoption of ArgoCD and Helm. He works to cultivate cross-team collaboration for the maturing of DevOps across his current company. In his previous position, Paul led a team initiative to deploy the team's first cloud-hosted application.
+          Paul Lee is a Senior DevOps Engineer. He has helped to drive DevOps practices in the Marketing Technology space. Paul leads his team’s GitHub migration, including adoption of ArgoCD and Helm. He works to cultivate cross-team collaboration for the maturing of DevOps across his current company. In his previous position, Paul led a team initiative to deploy their first cloud-hosted application.
         </p>
 
         <p
