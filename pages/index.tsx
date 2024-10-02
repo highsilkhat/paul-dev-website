@@ -40,14 +40,7 @@ const Home: NextPage = () => {
               rounded-lg md:rounded-r-full
             "
         >
-          Shortly after beginning my first developer role, I created a CI/CD
-          pipeline and earned the Azure Associate Developer certificate from
-          Microsoft. I continue to grow, as I transition a Java application from
-          JDBC and SQL queries to JPA. I also continue to pursue personal
-          projects, including a poetry application that analyzes a variety of
-          traditional forms and my portfolio site, and learn new technologies
-          and methods. I am currently diving into test-driven design, GoLang,
-          and machine learning.
+          Paul Lee is a Senior DevOps Engineer. He has helped to drive DevOps practices in the Marketing Technology space. Paul leads his team’s GitHub migration, including adoption of ArgoCD and Helm. He works to cultivate cross-team collaboration for the maturing of DevOps across his current company. In his previous position, Paul led a team initiative to deploy the team's first cloud-hosted application.
         </p>
 
         <p
@@ -65,12 +58,7 @@ const Home: NextPage = () => {
             rounded-lg md:rounded-l-full
               "
         >
-          My initiation into programming occurred in the summer of 2021, when I
-          completed a rigorous and immersive 14-week coding bootcamp. In this
-          time, I learned how to create full-stack applications in three
-          separate tech stacks: MERN, Python, and Java. This experience not only
-          taught me the foundations of these languages but also how to transfer
-          knowledge of one programming syntax to another.
+          He is passionate about work with distributed systems, cloud-based infrastructure, and DevOps tooling and practices. He earned the Microsoft Azure Developer Associate (AZ-204) certificate in 2022 and maintains it annually. Paul will be sitting for the Certified Kubernetes Application Developer (CKAD) certificate in October, 2024. He works out of and lives in Seattle.
         </p>
       </div>
     </div>
