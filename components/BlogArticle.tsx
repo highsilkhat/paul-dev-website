@@ -1,11 +1,12 @@
 import { MetaData } from '../lib/blog-api'
+import React from "react";
 
 interface BlogProps {
   contents: string
   metaData: MetaData
 }
 
-const BlogArticle: React.VFC<BlogProps> = ({ contents, metaData }) => {
+const BlogArticle: React.FC<BlogProps> = ({ contents, metaData }) => {
   return (
     <div>
       <article

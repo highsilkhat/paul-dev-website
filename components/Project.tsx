@@ -1,6 +1,7 @@
 import GitHubIcon from '../assets/logo-github.svg'
+import React from "react";
 
-const Project: React.VFC<{
+const Project: React.FC<{
   title: string
   listItems: string[]
   techs: string
