@@ -12,7 +12,7 @@ import Link from 'next/link'
 
 const Resume: NextPage = () => {
   return (
-    <div
+    (<div
       className="
     p-5 md:p-10
     font-mono
@@ -30,31 +30,31 @@ const Resume: NextPage = () => {
       md:flex
       "
       >
-        <Link href={'/'}>
-          <a
-            className="group
-          flex
-          "
+        <Link
+          href={'/'}
+          className="group
+        flex
+        ">
+
+          <div
+            className="
+          font-mono
+          group-hover:text-amber-400
+          group-hover:text-opacity-100
+        "
           >
-            <div
-              className="
-            font-mono
-            group-hover:text-amber-400
-            group-hover:text-opacity-100
-          "
-            >
-              Paul
-            </div>
-            <div
-              className="
-            font-mono
-            group-hover:text-amber-400
-            group-hover:text-opacity-100
-          "
-            >
-              Lee
-            </div>
-          </a>
+            Paul
+          </div>
+          <div
+            className="
+          font-mono
+          group-hover:text-amber-400
+          group-hover:text-opacity-100
+        "
+          >
+            Lee
+          </div>
+
         </Link>
         <span className="text-white">=</span>{' '}
         <div
@@ -154,7 +154,6 @@ const Resume: NextPage = () => {
         skillBody="
         Azure, AWS, MySQL, MongoDB, Vercel"
       />
-
       <h2
         className="
       text-blue-300
@@ -175,17 +174,17 @@ const Resume: NextPage = () => {
         href={
           'https://learn.microsoft.com/en-us/users/paullee-7702/transcript/dw226fwmw2xo3r2?source=docs'
         }
-      >
-        <a className="group">
-          <div
-            className="
-      text-amber-500
-      text-opacity-75
-          "
-          >
-            <u>Microsoft Certified: Azure Developer Associate</u>
-          </div>
-        </a>
+        className="group">
+
+        <div
+          className="
+    text-amber-500
+    text-opacity-75
+        "
+        >
+          <u>Microsoft Certified: Azure Developer Associate</u>
+        </div>
+
       </Link>
       <h2
         className="
@@ -255,8 +254,8 @@ const Resume: NextPage = () => {
         </span>
         {'}'}
       </p>
-    </div>
-  )
+    </div>)
+  );
 }
 
 export default Resume

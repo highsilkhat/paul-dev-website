@@ -17,15 +17,15 @@ const MenuLink: React.FC<MenuLinkProps> = ({
   ...rest
 }) => {
   return (
-    <div className="group">
-      <Link {...rest}>
-        <a className={clsx(className, 'flex flex-col items-center')}>
-          <IconComponent />
-          <p className={iconTextStyling}>{iconText}</p>
-        </a>
+    (<div className="group">
+      <Link {...rest} className={clsx(className, 'flex flex-col items-center')}>
+
+        <IconComponent />
+        <p className={iconTextStyling}>{iconText}</p>
+
       </Link>
-    </div>
-  )
+    </div>)
+  );
 }
 
 export default MenuLink

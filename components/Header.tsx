@@ -10,7 +10,7 @@ import React from "react";
 
 const Header: React.FC = () => {
   return (
-    <div
+    (<div
       className="
       py-10 md:py-20
       font-serif
@@ -32,21 +32,21 @@ const Header: React.FC = () => {
                 p-5
               "
         >
-          <Link href={'/'}>
-            <a className="group">
-              <div
-                className="
-            text-5xl
-            font-sans
-            text-amber-100
-            text-opacity-50
-            group-hover:text-amber-400
-              group-hover:text-opacity-100
-          "
-              >
-                Paul Lee
-              </div>
-            </a>
+          <Link href={'/'} className="group">
+
+            <div
+              className="
+          text-5xl
+          font-sans
+          text-amber-100
+          text-opacity-50
+          group-hover:text-amber-400
+            group-hover:text-opacity-100
+        "
+            >
+              Paul Lee
+            </div>
+
           </Link>
           <div
             className="
@@ -134,8 +134,8 @@ const Header: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
-  )
+    </div>)
+  );
 }
 
 export default Header
