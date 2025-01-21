@@ -1,5 +1,6 @@
 import Link, { LinkProps } from 'next/link'
 import clsx from 'clsx'
+import React from "react";
 
 export interface MenuLinkProps extends LinkProps {
   className: string
@@ -8,7 +9,7 @@ export interface MenuLinkProps extends LinkProps {
   iconComponent: React.ComponentType
 }
 
-const MenuLink: React.VFC<MenuLinkProps> = ({
+const MenuLink: React.FC<MenuLinkProps> = ({
   className,
   iconComponent: IconComponent,
   iconText,

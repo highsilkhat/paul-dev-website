@@ -2,7 +2,7 @@ import { PostListDetails } from '../lib/blog-api'
 import Link from 'next/link'
 import { getBlogLink } from '../lib/utils'
 
-const BlogHeroPreview: React.VFC<PostListDetails> = ({
+const BlogHeroPreview: React.FC<PostListDetails> = ({
   title,
   publishedDate,
   excerpt,

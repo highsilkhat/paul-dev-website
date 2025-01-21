@@ -1,4 +1,6 @@
-const Skill: React.VFC<{ skill: string; skillBody: string }> = ({
+import React from "react";
+
+const Skill: React.FC<{ skill: string; skillBody: string }> = ({
   skill,
   skillBody,
 }) => {

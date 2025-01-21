@@ -1,6 +1,7 @@
 import Header from './Header'
+import React from "react";
 
-const BlogLayout: React.FC = ({ children }) => {
+const BlogLayout: React.FC<{children?: React.ReactNode}> = ({ children }) => {
   return (
     <div
       className="

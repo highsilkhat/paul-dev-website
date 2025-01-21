@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import BGImage from '../public/ferryOnSound.png'
 import '@fontsource/nanum-myeongjo'
+import React from "react";
 
-const Splash: React.VFC = () => {
+const Splash: React.FC = () => {
   return (
     <div>
       <Image

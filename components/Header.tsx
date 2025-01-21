@@ -6,8 +6,9 @@ import MenuLink from './MenuLink'
 import TerminalIcon from '../assets/terminal.svg'
 import MenuHref from './MenuHref'
 import Link from 'next/link'
+import React from "react";
 
-const Header: React.VFC = () => {
+const Header: React.FC = () => {
   return (
     <div
       className="

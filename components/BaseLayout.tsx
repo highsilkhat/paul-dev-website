@@ -1,6 +1,8 @@
 import Head from 'next/head'
+import React from "react";
 
-const BaseLayout: React.FC = ({ children }) => {
+// @ts-ignore
+const BaseLayout: React.FC<{children?: React.ReactNode}> = ({ children }) => {
   return (
     <div
       className="
