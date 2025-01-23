@@ -141,9 +141,9 @@ const Resume: NextPage = () => {
         skillBody="Yaml, Terraform, Java, python, TypeScript"
       />
       <Skill
-          skill="Tools"
+          skill="Technologies"
           skillBody="
-        Kubernetes, Docker, GitHub, ArgoCD, Red Hat OpenShift, JetBrains"
+        Kubernetes, Docker, GitHub, ArgoCD, Red Hat OpenShift"
       />
       <Skill
         skill="Frameworks & Libraries"
@@ -170,6 +170,22 @@ const Resume: NextPage = () => {
       >
         Certifications {'('}
       </h2>
+      <Link
+          href={
+            'https://www.credly.com/badges/d8b6dfcb-8867-43cd-baa6-0eb6170ba45b/linked_in_profile'
+          }
+          className="group">
+
+        <div
+            className="
+    text-amber-500
+    text-opacity-75
+        "
+        >
+          <u>Linux Foundation: Certified Kubernetes Application Developer</u>
+        </div>
+
+      </Link>
       <Link
         href={
           'https://learn.microsoft.com/en-us/users/paullee-7702/transcript/dw226fwmw2xo3r2?source=docs'
