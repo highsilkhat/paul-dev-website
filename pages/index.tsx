@@ -40,7 +40,7 @@ const Home: NextPage = () => {
               rounded-lg md:rounded-r-full
             "
         >
-          Paul Lee is a Senior DevOps Engineer. He has helped to drive DevOps practices in the Marketing Technology space. Paul leads his team’s GitHub migration, including adoption of ArgoCD and Helm. He works to cultivate cross-team collaboration for the maturing of DevOps across his current company. In his previous position, Paul led a team initiative to deploy their first cloud-hosted application.
+          Paul Lee is a CKAD and AZ-204 certified Senior DevOps Engineer. He has helped to drive DevOps practices in the Marketing Technology space. Paul led his team’s GitHub migration, including adoption of ArgoCD and Helm. He works to cultivate cross-team collaboration for the maturing of DevOps across his current company.
         </p>
 
         <p
@@ -58,7 +58,7 @@ const Home: NextPage = () => {
             rounded-lg md:rounded-l-full
               "
         >
-          Paul is passionate about work with distributed systems, cloud-based infrastructure, and DevOps tooling and practices. He earned the Microsoft Azure Developer Associate (AZ-204) certificate in 2022 and maintains it annually. Paul will be sitting for the Certified Kubernetes Application Developer (CKAD) certificate in December 2024. He works out of and lives in Seattle.
+          Paul currently leads a team initiative to improve observability, metrics, and traceability. In his previous position, he led a team initiative to deploy their first cloud-hosted application. Paul is passionate about work with distributed systems, cloud-based infrastructure, and DevOps tooling and practices. He works out of and lives in Seattle.
         </p>
       </div>
     </div>
