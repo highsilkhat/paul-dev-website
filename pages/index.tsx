@@ -13,6 +13,12 @@ const Home: NextPage = () => {
     font-serif
     "
     >
+      <Head>
+        <meta
+          name="description"
+          content="Paul Lee is a Senior DevOps Engineer based in Seattle. Specializing in Kubernetes, Cloud Infrastructure, and automating workflows with tools like ArgoCD and Helm."
+        />
+      </Head>
       <Splash />
       <div
         className="
