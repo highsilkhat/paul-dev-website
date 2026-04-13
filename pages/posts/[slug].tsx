@@ -17,7 +17,17 @@ const Post: NextPage<PostProps> = ({ postContent }) => {
   return (
     <BlogLayout>
       <Head>
-        <title> {postContent.metaData.title} - Paul Lee </title>
+        <title>{postContent.metaData.title} | Paul Lee</title>
+        <meta
+          name="description"
+          content={`Read ${postContent.metaData.title} by Paul Lee, Senior DevOps Engineer.`}
+        />
+        <meta property="og:title" content={`${postContent.metaData.title} | Paul Lee`} />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:description"
+          content={`Blog post about ${postContent.metaData.title} by Paul Lee.`}
+        />
       </Head>
       <div
         className="

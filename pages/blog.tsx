@@ -14,7 +14,11 @@ const Blog: NextPage<BlogProps> = ({ blogs }) => {
   return (
     <BlogLayout>
       <Head>
-        <title>Paul Lee Blog</title>
+        <title>Paul Lee | DevOps Blog</title>
+        <meta
+          name="description"
+          content="Blog posts by Paul Lee on DevOps, Kubernetes, Cloud Infrastructure, and software engineering."
+        />
       </Head>
       <BlogHeroPreview {...first} />
       {rest.length > 0 && (
