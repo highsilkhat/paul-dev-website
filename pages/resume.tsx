@@ -20,7 +20,11 @@ const Resume: NextPage = () => {
     "
     >
       <Head>
-        <title>Paul Lee Portfolio</title>
+        <title>Paul Lee | Resume & Portfolio</title>
+        <meta
+          name="description"
+          content="Resume and portfolio of Paul Lee, Senior DevOps Engineer. Expertise in Kubernetes, Azure, Java, and CI/CD pipelines."
+        />
       </Head>
       {/* <MenuLink href="/">Home</MenuLink> */}
       <h1
